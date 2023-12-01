@@ -1,0 +1,740 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #000000;
+    zoom: 0.8;
+}
+.container {
+    width: 1260px;
+    margin: 0 auto;
+}
+.header-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-nav-all {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.header-logo {
+    display: block;
+    background-image: url(../images/logo.svg);
+    width: 72px;
+    height: 72px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-nav {
+    list-style-type: none;
+    display: flex;
+    gap: 31px;
+    margin-top: 10px;
+    padding-left: 0;
+}
+.header-nav a {
+    font-weight: 500;
+    font-size: 11.6px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.header-nav a:hover {
+    color: #0079D4;
+}
+.header-link {
+    list-style-type: none;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.language {
+    position: absolute;
+    right: 17px;
+    height: 16px;
+    top: 25px;
+}
+svg {
+    transition: 0.3s;
+}
+svg:hover {
+    fill: #0079D4;
+}
+.cube-blue-backgroung {
+    background-image: url(../images/NewCubeBlueBackgroung.png);
+    background-size: cover;
+    background-position: 0 center;
+    margin: 70.5px auto;
+    width: 550px;
+    height: 550px;
+}
+.cube-title {
+    background-image: url(../images/CubicWorldClub.png);
+    background-size: cover;
+    background-position: 0 center;
+    width: 428px;
+    height: 49px;
+    margin: 0 auto;
+}
+/*ru*/
+.title-ru {
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    letter-spacing: -1px;
+    margin-bottom: 0px;
+}
+.cube-text-ru {
+    font-family: 'Poiret One', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    color: #FFFFFF;
+    max-width: 685px;
+    line-height: 26px;
+    margin-bottom: 0px;
+    text-align: justify;
+    letter-spacing: -1px;
+}
+.plan-text-ru {
+    font-family: 'Poiret One', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.jost-m {
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: -0.5px;
+    max-width: 197px;
+    text-align: center;
+}
+.buy-text-ru {
+    font-family: 'Poiret One', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    max-width: 270px;
+    text-align: center;
+}
+
+/*en*/
+.title-en {
+    font-family: 'Righteous', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+}
+.cube-text {
+    font-weight: 300;
+    font-size: 21px;
+    color: #FFFFFF;
+    max-width: 690px;
+    line-height: 26px;
+    text-align: justify;
+    letter-spacing: -1px;
+}
+.cube-text-link {
+    margin-top: 9px;
+    text-align: start;
+}
+.cube-text a, .cube-text-ru a {
+    color: #0079D4;
+    text-decoration: none;
+}
+.welcome-union {
+    display: flex;
+    margin-top: 270px;
+    margin-bottom: 158px;
+}
+.final {
+    background-image: url(../images/final.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 414px;
+    height: 573px;
+    margin-top: -100px;
+}
+.line {
+    width: 124%;
+    margin-top: 0;
+    margin-left: -39px;
+}
+.done {
+    display: block;
+    margin: 0 auto;
+    width: 941px;
+    height: 1155px;
+    margin-bottom: 80px;
+}
+.manga-case {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 80px;
+}
+.manga-info {
+    max-width: 796px;
+}
+.manga-moment {
+    background-image: url(../images/moments.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 228px;
+    width: 418px;
+}
+.manga-cube-text {
+    max-width: 745px;
+}
+.span-b {
+    color: #0079D4;
+    padding-right: 28px;
+}
+.roadmap-text {
+    max-width: 620px;
+}
+.percent {
+    margin-top: 18px;
+    max-width: 380px;
+}
+.plan-text {
+    max-width: 851px;
+    letter-spacing: -0.5px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.plan-flex {
+    display: flex;
+    align-items: center;
+}
+.plan-main {
+    position: relative;
+}
+.under-roadmap-text {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    max-width: 484px;
+}
+.toilet {
+    background-image: url(../images/toilet.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 683px;
+    width: 763px;
+    position: absolute;
+    right: 255px;
+}
+.important-img {
+    background-image: url(../images/finalass.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    height: 807px;
+    width: 807px;
+}
+.buy {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    color: #FFFFFF;
+    align-items: center;
+    border: 1px solid #0079D4;
+    border-radius: 13px;
+    max-width: 920px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.buy-button {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-decoration: none;
+    border:  2px solid #0079D4;
+    border-radius: 13px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+    padding: 18px 13px;
+    max-width: 179px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 17px;
+    transition: 0.3s;
+}
+.buy-button:hover {
+    background-color: #0079D4;
+    border: 2px solid #FFFFFF;
+}
+.buy-title {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 28px;
+    letter-spacing: -0.5px;
+    max-width: 197px;
+    text-align: center;
+}
+.buy-text {
+    font-weight: 400;
+    font-size: 21px;
+    max-width: 270px;
+    text-align: center;
+}
+.wrapper {
+    width: 722px;
+    margin: 0 auto;
+}
+.price-text {
+    max-width: 484px;
+}
+.price-little-text, .price-little-text-ru {
+    font-size: 17px;
+    line-height: 19px;
+    max-width: 375px;
+    padding-top: 15px;
+    margin-bottom: 85px;
+    font-weight: 300;
+    color: #FFFFFF;
+    text-align: justify;
+    letter-spacing: -1px;
+}
+.price-little-text-ru {
+    font-family: 'Poiret One', sans-serif;
+    font-weight: 400;
+}
+.li-price {
+    padding-bottom: 15px;
+}
+.pay-title-all {
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+}
+.pay-title {
+    margin: 0;
+}
+.pay-img {
+    height: 33px;
+    width: 33px;
+}
+.pay-text {
+    max-width: 555px;
+    margin-bottom: 100px;
+}
+.devide {
+    width: 90%;
+    height: 1px;
+    border: 0;
+    background-color: #B5B5B5;
+    margin-top: 95px;
+}
+.footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    list-style-type: none;
+    margin: 37px 0;
+    padding: 0;
+}
+.jost-b {
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+}
+
+
+/* select.html */
+.select-list {
+    background-image: url(../images/final2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    max-height: 1141px;
+    height: 100%;
+    max-width: 995px;
+    width: 100%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+.manga-one {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    padding-top: 118px;
+    gap: 9px;
+    text-decoration: none;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+}
+.select-text {
+    color: #FFFFFF;
+    margin-top: 5px;
+}
+.select-title {
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 14px;
+    margin-bottom: 4px;
+}
+.select-description {
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 0;
+}
+.ru-select-description {
+    font-family: 'Poiret One';
+}
+
+/* manga_book*/
+.manga-background {
+    background-image: url(../images/CubeBlueBackgroung.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    max-height: 886px;
+    height: 100%;
+    max-width: 886px;
+    width: 100%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+.name_of_page {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+    display: flex;
+    padding: 0 13px;
+}
+.pages {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 0;
+}
+.owl-carousel-num {
+    max-width: 28px;
+    color: #0079D4;
+}
+.arrow_btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.left_arrow:hover {
+    fill: #0079D4;
+}
+.right_arrow:hover {
+    fill: #0079D4;
+}
+.left_btn{
+    left: 0;
+} 
+.right_btn {
+    right: 0;
+}
+.btns {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    background-color: transparent;
+    border-color: transparent;
+}
+.slider {
+    position: relative;
+}
+
+@media (max-width: 1350px) {/**/
+    .cube-blue-backgroung {
+        width: 480px;
+        height: 480px;
+        margin-top: 50px;
+    }
+    .toilet {
+        right: 0;
+    }
+}
+@media (max-width: 1230px) {/**/
+    .container {
+        max-width: 1000px;
+    }
+    .cube-blue-backgroung {
+        width: 465px;
+        height: 465px;
+        margin-top: 50px;
+    }
+    .final {
+        margin-top: -50px;    
+        width: 339px;
+        height: 467px;
+    }
+    .done {
+        width: 599px;
+        height: 735px;
+    }
+    .manga-case {
+        gap: 15px;
+        margin-bottom: 100px;
+    }
+    .manga-moment {
+        height: 211px;
+    }
+    .manga-cube-text {
+        max-width: 590px;
+    }
+    .important-img {
+        width: 640px;
+        height: 640px;
+    }
+}
+@media (max-width: 930px) {
+    .container {
+        max-width: 770px;
+    }
+    .cube-blue-backgroung {
+        width: 442px;
+        height: 442px;
+    }
+    .welcome-union {
+        margin-top: 300px;
+        flex-direction: column;
+        gap: 20px
+    }
+    .final {
+        margin: 0 auto;
+    }
+    .line {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .manga-case {
+        gap: 8px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .manga-cube-text {
+        max-width: 783px; 
+    }
+    .manga-moment {
+        height: 370px;
+        width: 672px;
+    }
+    .toilet {
+        height: 500px;
+        width: 573px;
+        margin-top: 130px;
+    }
+    .important-img {
+        height: 600px;
+        width: 600px;
+    }
+    .buy {
+        gap: 40px;
+    }
+    .buy-title {
+        font-size: 26px;
+    }
+    .buy-text {
+        font-size: 19px;
+        max-width: 186px;
+    }
+}
+@media (max-width: 835px) {
+    .pages {
+        display: none;
+    }
+}
+@media (max-width: 730px) {
+    .container, .wrapper {
+        max-width: 600px;
+    }
+    .header-link {
+        padding-left: 0;
+        display: none;
+    }
+    .header-item {
+        justify-content: space-around;
+    }
+    .manga-moment {
+        height: 275px;
+        width: 510px;
+    }
+    .toilet {
+        height: 400px;
+        width: 400px;
+        margin-top: 390px;
+    }
+    .buy-title, .jost-m {
+        display: none;
+    }
+}
+@media (max-width: 570px) {
+    .container, .wrapper {
+        max-width: 460px;
+    }
+    .header-nav {
+        gap: 15px;
+    }
+    .cube-blue-backgroung {
+        width: 377px;
+        height: 377px;
+    }
+    .title-en, .title-ru {
+        font-size: 30px;
+    }
+    .final {
+        height: 317px;
+        width: 230px;
+    }
+    .line {
+        width: 70%;
+    }
+    .welcome-union {
+        margin-bottom: 100px;
+    }
+    .done {
+        width: 502px;
+        height: 616px;
+    }
+    .manga-moment {
+        height: 240px;
+        width: 430px;
+    }
+    .manga-case, .buy, .pay-text {
+        margin-bottom: 70px;
+        padding: 0 10px;
+    }
+    .price-little-text, .price-little-text-ru {
+        margin-bottom: 50px;
+        font-size: 15px;
+    }
+    .toilet {
+        height: 245px;
+        width: 245px;
+    }
+    .important-img {
+        height: 450px;
+        width: 450px;
+    }
+
+    .select-title {
+        font-size: 13px;
+    }
+    .select-description {
+        font-size: 11px;
+    }
+    .img-manga-one {
+        width: 115px;
+        height: 150px;
+    }
+}
+@media (max-width: 480px) {
+    .welcome-union {/**/
+        margin-top: 200px;
+    }
+    .header-nav a {/**/
+        font-size: 11px;
+    }
+    .header-nav {/**/
+        gap: 11px;
+    }
+    .cube-blue-backgroung {/**/
+        width: 300px;
+        height: 300px;
+    }
+    .title-en, .title-ru {/**/
+        font-size: 30px;
+    }
+    .line {/**/
+        width: 73%;
+    }
+    .buy {/**/
+        gap: 0;
+        flex-direction: column;
+        max-width: 420px;
+    }
+    .buy-button {/**/
+        max-width: 293px;
+        margin-top: 0px;
+    }
+    .cube-text, .cube-text-ru {/**/
+        font-size: 19px;
+    }
+    .cube-title {
+        width: 383px;
+        height: 45px;
+    }
+}
+@media (max-width: 425px) {
+    .container, .wrapper {/**/
+        max-width: 300px;
+    }
+    .header-nav a {
+        font-size: 10px;
+    }
+    .cube-blue-backgroung {/**/
+        width: 255px;
+        height: 255px;
+        margin-top: 72px;
+    }
+    .title-en, .title-ru {/**/
+        font-size: 20px;
+    }
+    .cube-text, .cube-text-ru {/**/
+        font-size: 17px;
+    }
+    .cube-title {/**/
+        width: 278px;
+        height: 32px;
+    }
+    .line {/**/
+        width: 95%;
+    }
+    .done {/**/
+        width: 350px;
+        height: 429px;
+    }
+    .manga-moment {/**/
+        height: 175px;
+        width: 315px;
+    }
+    .toilet {
+        margin-top: 465px;
+    }
+    .important-img {/**/
+        height: 325px;
+        width: 325px;
+    }
+    .buy-button {/**/
+        max-width: 213px;
+    }
+    .pay-img {/**/
+        height: 25px;
+        width: 25px;
+    }
+    .img-manga-one {
+        width: 95px;
+        height: 130px;
+    }
+}
+@media (max-width: 330px) {
+    .header-logo {
+        width: 60px;
+        height: 60px;
+    }
+    .header-item {
+        margin-top: 5px;
+        justify-content: flex-start;
+        gap: 15px
+    }
+}
